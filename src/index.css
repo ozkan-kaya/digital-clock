@@ -28,17 +28,16 @@ code {
   background: transparent;
   -webkit-backdrop-filter: blur(24px);
   backdrop-filter: blur(24px);
-  border: 2px solid rgba(255,255,255,.7);
+  border: 3px solid rgba(255,255,255,.7);
   box-shadow: 0 0 40px white;
   border-radius: 20px;
   padding: 4px 32px;
 }
 
 .clock {
-  font-family: "Arial","Droid Sans Mono", "monospace";
+  font-family: "Arial", "Droid Sans Mono", "monospace";
   font-size: 6rem;
   color: white;
-  text-shadow: 0 0 6px rgba(255,255,255,.5);
+  text-shadow: 0 0 6px rgba(255, 255, 255, .5);
   text-align: center;
 }
-
