@@ -3,7 +3,6 @@ import React, {useState, useEffect} from "react";
 export default function DigitalClock() {
 
     const [time,setTime] = useState(new Date());
-
     useEffect(() => {
         const intervalID = setInterval(() => {
             setTime(new Date());

@@ -19,11 +19,6 @@ body {
   justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 .clock-container {
   background: transparent;
   -webkit-backdrop-filter: blur(24px);
@@ -35,7 +30,7 @@ code {
 }
 
 .clock {
-  font-family: "Arial", "Droid Sans Mono", "monospace";
+  font-family: "Arial", monospace;
   font-size: 6rem;
   color: white;
   text-shadow: 0 0 6px rgba(255, 255, 255, .5);
